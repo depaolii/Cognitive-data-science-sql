@@ -84,13 +84,6 @@ cognitive-data-science-sql/
 
 ## Modelo de Dados
 
-```
-zoologico ──< zoo_jaula >── jaula ──< animal >── especie
-    │
-    └──< totem
-    │
-    └──< visitante_zoo >── visitante ──< feedback
-```
 
 **Principais relacionamentos:**
 - Um zoológico possui múltiplas jaulas (N:N via `zoo_jaula`)
